@@ -1,7 +1,32 @@
 body {
     background-color: #F0E2CB;
-    margin: 20px 20px 140px 140px;
+    margin-left: 360px;
+    margin-right: 360px;
 }
 header {
     text-align: center;
+}
+p {
+    font-size: 24px;
+    font-family: Lancelot;
+}
+h1 {
+    font-family: Jim Nightshade;
+    font-size: 64px;
+}
+h2 {
+    font-family: Kings;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+h3 {
+    font-family: Kotta One;
+    font-size: 32px;
+}
+h4 {
+    font-family: Milonga;
+    font-size: 26px;
+}
+.list {
+    font-size: 24px;
 }
