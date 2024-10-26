@@ -13,20 +13,34 @@ p {
 h1 {
     font-family: Jim Nightshade;
     font-size: 64px;
+    font-weight: normal;
 }
 h2 {
     font-family: Kings;
     font-size: 40px;
     letter-spacing: 1.5px;
+    font-weight: normal;
 }
 h3 {
     font-family: Kotta One;
     font-size: 32px;
+    font-weight: normal;
 }
 h4 {
     font-family: Milonga;
     font-size: 26px;
+    font-weight: normal;
 }
-.list {
-    font-size: 24px;
+ul li {
+    font-size: 20px;
+}
+ol li {
+    font-size: 20px;
+}
+#toc-index {
+    text-align: center;
+}
+#related-articles .related {
+    display: flex;
+
 }
