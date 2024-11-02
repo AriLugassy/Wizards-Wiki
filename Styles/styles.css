@@ -76,11 +76,9 @@ header nav {
 
 /* SPELLS STUFF YO */
 
-#fire-spells h2 {
-    text-align: center;
-   
-}
 
+
+/* SPELL CARD ORIENTATIONS */
 .spell-l {
     display: flex;
     gap: 40px;
@@ -92,11 +90,54 @@ header nav {
 .spell-l p {
     padding-left: 40px;
 }
+
 .spell-r h4 {
     padding-left: 20px;
+}
+.spell-r p {
+    padding-left: 40px;
 }
 .spell-r {
     display: flex;
     flex-direction: row-reverse;
     gap: 40px;
+}
+/* SPELL HEADERS */
+#fire-spells h2 {
+    text-align: center;
+   
+}
+#water-spells h2 {
+    text-align: center;
+}
+#lightening-spells h2 {
+    text-align: center;
+}
+#earth-spells h2 {
+    text-align: center;
+}
+#wind-spells h2 {
+    text-align: center;
+}
+
+/* HEALING SPELLS */
+
+#healing-spells h2 {
+    text-align: center;
+    padding-top: 70px;
+}
+.heal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+/* ENCHANTMENTS */
+
+.enchantment-duo {
+    display: flex;
+    
 }
