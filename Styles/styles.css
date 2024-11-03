@@ -101,6 +101,7 @@ header nav {
     display: flex;
     flex-direction: row-reverse;
     gap: 40px;
+    padding-top: 40px;
 }
 /* SPELL HEADERS */
 #fire-spells h2 {
@@ -124,7 +125,7 @@ header nav {
 
 #healing-spells h2 {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 .heal {
     text-align: center;
@@ -137,7 +138,49 @@ header nav {
 
 /* ENCHANTMENTS */
 
+#enchantments h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
 .enchantment-duo {
     display: flex;
     
+}
+
+
+
+
+
+
+
+
+
+/* STAFFS PAGE 
+STAFFS PAGE STAFFS PAGE STAFFS PAGE */
+
+
+
+
+
+/* &^*(%$*&^ ASK PROF ABOUT SPACING )*&%&*(^%*/
+
+.wood-header h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+.wood {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.wood p {
+    text-align: left;
+}
+
+.wood h4 {
+    padding-left: 25px;
 }
