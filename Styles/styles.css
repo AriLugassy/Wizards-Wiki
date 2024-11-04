@@ -9,6 +9,7 @@ header {
 p {
     font-size: 24px;
     font-family: Lancelot;
+    margin: 12px 0px;
 }
 h1 {
     font-family: Jim Nightshade;
@@ -25,11 +26,13 @@ h3 {
     font-family: Kotta One;
     font-size: 32px;
     font-weight: normal;
+    margin: 12px 0px;
 }
 h4 {
     font-family: Milonga;
     font-size: 26px;
     font-weight: normal;
+    margin: 12px 0px;
 }
 ul li {
     font-size: 20px;
@@ -51,17 +54,27 @@ ol li {
 header nav menu li {
     list-style: none;
 }
-header nav menu#main-menu {
+header nav menu li a {
     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header nav menu#main-menu {
+    padding:0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 100px;
+    width: 700px;
+    background-image: url(../Assets/images/nav-bar.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
     align-items: center;
 }
 
-header nav menu#main-menu li a {
-    display: flex;
-    align-items: center;
-}
 header nav {
-    
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -147,7 +160,15 @@ header nav {
     display: flex;
     
 }
-
+.flame-e {
+    width: 50%;
+}
+.ice-e {
+    width: 50%;
+}
+.echantement-duo div {
+    width: 50%;
+}
 
 
 
