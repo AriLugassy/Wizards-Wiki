@@ -182,13 +182,9 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 
 
 
-
-
-/* &^*(%$*&^ ASK PROF ABOUT SPACING )*&%&*(^%*/
-
 .wood-header h2 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .wood {
     display: flex;
@@ -196,12 +192,55 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
     text-align: left;
     margin-left: 100px;
     margin-right: 100px;
+    padding-block: 35px;
 }
 
 .wood p {
     text-align: left;
+    margin: 0px;
 }
 
 .wood h4 {
     padding-left: 25px;
+    margin: 0px;
+    padding-block: 7px;
+}
+
+.wood h3 {
+    margin: 0px;
+}
+
+
+
+/* TERM DEFS */
+
+#term-defs h3 {
+    text-align: center;
+    padding-block: 30px;
+}
+
+#term-defs div {
+    padding-block: 15px;
+    padding-inline: 90px;
+}
+
+.def p {
+    padding-left: 40px;
+}
+
+/* CRYSTALS */
+
+.crystal {
+    display: flex;
+    text-align: left;
+    gap: 40px;
+    padding-inline: 80px;
+}
+
+.crystal h4 {
+    padding-left: 15px;
+    margin: 0px;
+}
+.crystal h3 {
+    margin: 0px;
 }
