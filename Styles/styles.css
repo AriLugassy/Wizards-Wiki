@@ -1,7 +1,8 @@
 body {
     background-color: #F0E2CB;
     margin: auto;
-    width: 1000px;
+    width: 60%;
+    color: #220038;
 }
 header {
     text-align: center;
@@ -41,13 +42,14 @@ ol li {
     font-size: 20px;
 }
 #toc-index  {
-    display: flex;
-    flex-direction: column;
+  text-align: center;
 }
-#related-articles .related {
-    display: flex;
+#toc-index ol {
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+}
 
-}
 
 /* NAV STUFF RIGHT HERE  */
 
@@ -78,6 +80,13 @@ header nav {
 }
 
 
+/* FOOOOOOOOOOOOOOOOTER */
+
+#related-articles {
+    display: flex;
+   
+}
+
 
 
 
@@ -88,7 +97,6 @@ header nav {
 
 
 /* SPELLS STUFF YO */
-
 
 
 /* SPELL CARD ORIENTATIONS */
@@ -158,16 +166,16 @@ header nav {
 
 .enchantment-duo {
     display: flex;
+    gap: 100px;
+}
+.enchantment-duo h3 {
+    padding-left: 25px;
+}
+
+.enchantment-duo div {
+    flex: 1;
+
     
-}
-.flame-e {
-    width: 50%;
-}
-.ice-e {
-    width: 50%;
-}
-.echantement-duo div {
-    width: 50%;
 }
 
 
@@ -193,6 +201,11 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
     margin-left: 100px;
     margin-right: 100px;
     padding-block: 35px;
+}
+
+#wood-types div {
+    padding-block: 25px;
+    padding-inline: 70px;
 }
 
 .wood p {
