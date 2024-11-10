@@ -246,8 +246,12 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 .crystal {
     display: flex;
     text-align: left;
-    gap: 40px;
-    padding-inline: 80px;
+    gap: 120px;
+    
+}
+
+.crystal div {
+    padding-block: 50px;
 }
 
 .crystal h4 {
