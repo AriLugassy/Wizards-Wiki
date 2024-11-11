@@ -35,6 +35,17 @@ h4 {
     font-weight: normal;
     margin: 12px 0px;
 }
+
+a {
+    color: purple;
+    transition: color .5s;
+}
+
+a:hover {
+    color: red;
+}
+
+
 ul li {
     font-size: 20px;
 }
@@ -261,3 +272,5 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 .crystal h3 {
     margin: 0px;
 }
+
+
