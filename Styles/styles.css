@@ -159,14 +159,23 @@ header nav {
     text-align: center;
     padding-top: 100px;
 }
+
 .heal {
     text-align: center;
     display: flex;
     flex-direction: column;
-    
+    padding-inline: 125px;
+    padding-block: 20px;
 }
 
+.heal h3, .heal h4, .heal p {
+    margin: 0;
+    padding: 7px;
+}
 
+.heal p {
+    text-align: left;
+}
 
 /* ENCHANTMENTS */
 
@@ -177,9 +186,14 @@ header nav {
 
 .enchantment-duo {
     display: flex;
-    gap: 100px;
+    gap: 110px;
+    padding-block: 11px;
 }
 .enchantment-duo h3 {
+    padding-left: 25px;
+}
+
+.enchantment-duo h4 {
     padding-left: 25px;
 }
 
