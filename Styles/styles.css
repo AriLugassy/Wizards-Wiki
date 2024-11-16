@@ -45,6 +45,9 @@ a:hover {
     color: red;
 }
 
+ul {
+    list-style-image: url(../Assets/images/bullet-point.svg);
+}
 
 ul li {
     font-size: 20px;
@@ -54,6 +57,7 @@ ol li {
 }
 #toc-index  {
   text-align: center;
+  padding-block: 35px;
 }
 #toc-index ol {
     margin: auto;
@@ -101,6 +105,45 @@ header nav {
 
 
 
+/* HOMEPAGE LANDING PAGE MAIN PAGE PAGE STUFF */ 
+
+
+
+
+.spell-para {
+    padding-block: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,6 +151,13 @@ header nav {
 
 
 /* SPELLS STUFF YO */
+
+#elemental-spell h2 {
+    text-align: center;
+}
+
+
+
 
 
 /* SPELL CARD ORIENTATIONS */
@@ -259,7 +309,7 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 
 #term-defs div {
     padding-block: 15px;
-    padding-inline: 90px;
+    padding-inline: 120px;
 }
 
 .def p {
