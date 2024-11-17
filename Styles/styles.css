@@ -105,6 +105,31 @@ header nav {
 
 
 
+
+/* SCROLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HOMEPAGE LANDING PAGE MAIN PAGE PAGE STUFF */ 
 
 
@@ -155,8 +180,18 @@ header nav {
 #elemental-spell h2 {
     text-align: center;
 }
-
-
+#elemental-spell h2::before {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+#elemental-spell h2::after {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/after.png);
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
 
 
 
@@ -186,22 +221,30 @@ header nav {
     padding-top: 40px;
 }
 /* SPELL HEADERS */
-#fire-spells h2 {
+#spell-sect h2 {
     text-align: center;
-   
+    padding-bottom: 40px;
 }
-#water-spells h2 {
-    text-align: center;
+#spell-sect {
+    padding-block: 60px;
 }
-#lightening-spells h2 {
-    text-align: center;
+
+
+#spell-sect h2::before {
+    content: url();
+    position: relative;
+    top: 12px;
+    left: 10px;
+    
 }
-#earth-spells h2 {
-    text-align: center;
-}
-#wind-spells h2 {
-    text-align: center;
-}
+
+
+
+
+
+
+
+
 
 /* HEALING SPELLS */
 
