@@ -108,15 +108,30 @@ header nav {
 
 /* SCROLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
 
+.scroll-animation {
+    background-image: url();
+    width: 1258px;
+    height: 114px;
+    position: fixed;
+    bottom: 0px;
+    animation: scrollmove 1s infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -10s);
+}
 
-
-
-
-
-
-
-
-
+@keyframes scrollmove {
+    0%  { 
+      background-image: url('../Assets/images/scroll-bottom-1.svg');
+     }
+     
+     50%  { 
+       background-image: url('../Assets/images/scroll-bottom-2.svg'); 
+     }
+     
+     100% {
+       background-image: url('../Assets/images/scroll-bottom-3.svg');
+     }
+   }
 
 
 
@@ -185,6 +200,7 @@ header nav {
     position: relative;
     top: 12px;
     left: 15px;
+    right: 10px;
 }
 #elemental-spell h2::after {
     content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/after.png);
@@ -220,7 +236,12 @@ header nav {
     gap: 40px;
     padding-top: 40px;
 }
-/* SPELL HEADERS */
+
+
+
+
+
+/* SPELL HEADERS SPELL HEADERS SPELL HEADERS*/
 #spell-sect h2 {
     text-align: center;
     padding-bottom: 40px;
@@ -231,14 +252,20 @@ header nav {
 
 
 #spell-sect h2::before {
-    content: url();
+    content: url('../Assets/images/sub-head-before.svg');
+    position: relative;
+    top: 12px;
+    left: 10px;
+    right: 15px;
+}
+
+#spell-sect h2::after {
+    content: url('../Assets/images/sub-head-after.svg');
     position: relative;
     top: 12px;
     left: 10px;
     
 }
-
-
 
 
 
