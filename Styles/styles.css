@@ -1,12 +1,12 @@
 body {
-   
+   background-color: #F0E2CB;
     color: #220038;
 }
 main {
     margin: auto;
     width: 60%;
-     background-color: #F0E2CB;
-     padding-inline: 20px;
+     
+     padding-inline: 100px;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     background-color: #F0E2CB;
     width: 60%;
     margin: auto;
-    padding-inline: 20px;
+    padding-inline: 100px;
 }
 p {
     font-size: 24px;
@@ -113,8 +113,9 @@ footer {
     width: 60%;
     margin: auto;
     background-color: #F0E2CB;
-    padding-inline: 20px;
+    padding-inline: 100px;
     padding-bottom: 300px;
+
 }
 
 #related-articles {
@@ -128,17 +129,18 @@ footer {
 
 /* SCROLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
 
-.scroll-animation {
+#scroll-animation {
     background-image: url('../Assets/images/scroll-bottom-1.svg');
     background-repeat: no-repeat;
+    background-size: 70%;
     width: 100%;
     height: 300px;
     position: fixed;
-    bottom: -44px;
-    left: 8%;
+    bottom: -93px;
+    left: 15%;
     animation: scrollmove 1s infinite;
     animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -6s);
+    animation-delay: calc(var(--scroll) * -2s);
 }
 
 @keyframes scrollmove {
@@ -411,6 +413,10 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 }
 
 /* CRYSTALS */
+
+.crystal-header h2 {
+    text-align: center;
+}
 
 .crystal {
     display: flex;
