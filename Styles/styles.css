@@ -50,8 +50,8 @@ h4 {
 
 a {
     color: rgb(34, 21, 146);
-    transition: color .5s;
-    transition: text-shadow .5s; 
+    transition: color .5s, text-shadow .5s;
+
 }
 
 a:hover {
@@ -136,7 +136,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 70%;
     width: 145%;
-    height: 250px;
+    height: 200px;
     position: fixed;
     bottom: -70px;
     left: -.5%;
@@ -159,7 +159,21 @@ footer {
      }
    }
 
-
+ 
+   #scroll-animation-top {
+    background-image: url('../Assets/images/scroll-bottom-1-v2.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 145%;
+    height: 250px;
+    position: fixed;
+    top: -70px;
+    left: -.5%;
+    transform: scaleY(-1);
+    /* animation: scrollmove 1s infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -2s); */
+}
 
 
 
