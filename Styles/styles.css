@@ -49,8 +49,9 @@ h4 {
 }
 
 a {
-    color: rgb(34, 21, 146);
+    color: rgb(162, 0, 180);
     transition: color .5s, text-shadow .5s;
+    text-decoration: none;
 
 }
 
@@ -129,6 +130,7 @@ footer {
 
 
 
+
 /* SCROLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
 
 #scroll-animation {
@@ -138,8 +140,8 @@ footer {
     width: 145%;
     height: 200px;
     position: fixed;
-    bottom: -70px;
-    left: -.5%;
+    bottom: 0px;
+    left: -.8%;
     /* animation: scrollmove 1s infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -2s); */
@@ -240,7 +242,7 @@ footer {
     content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
     position: relative;
     top: 12px;
-    left: 15px;
+    left: -8px;
     right: 10px;
 }
 #elemental-spell h2::after {
@@ -295,9 +297,9 @@ footer {
 #spell-sect h2::before {
     content: url('../Assets/images/sub-head-before.svg');
     position: relative;
-    top: 12px;
-    left: -10px;
-    right: 30px;
+    top: 10px;
+    left: -12px;
+    right: -20px;
    
 }
 

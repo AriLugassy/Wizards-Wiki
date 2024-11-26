@@ -4,12 +4,14 @@ let scrollAnimationTop = document.getElementById("scroll-animation-top")
 
 window.addEventListener('scroll', () => {
   if((window.innerHeight + Math.round(window.scrollY))>= document.body.offsetHeight) {
-    scrollAnimation.style.backgroundImage = "url('assets/images/scroll-bottom-open.svg')";
+    scrollAnimation.style.backgroundImage = "url('assets/images/scroll-bottom-open-v2.svg')";
     scrollAnimation.style.animation = "none";
+    
+    // scrollAnimation.style.height = "270px"
     console.log("youre at the bottom")
   }
   else if ((window.scrollY == 0)) {
-    scrollAnimationTop.style.backgroundImage = "url('assets/images/scroll-bottom-open.svg')";
+    scrollAnimationTop.style.backgroundImage = "url('assets/images/scroll-bottom-open-v2.svg')";
     scrollAnimationTop.style.animation = "none";
     console.log("youre at the top")
 
