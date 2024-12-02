@@ -130,12 +130,13 @@ footer {
 
 
 #newsletter-whole {
-    align-content: center;
+    justify-content: center;
     padding-block: 100px;
+    display: flex;
 }
 
 #news-button {
-    background:url(../Assets/images/button.svg) no-repeat;
+    background:url(../Assets/images/button-v2.svg) no-repeat;
     border-style: none;
     cursor: pointer;
     width: 200px;
@@ -150,9 +151,29 @@ footer {
     height: 200px;
 }
 
-#newsletter input {
-    font-family: 'Lancelot';
+div#newsletter-bg {
+    background: url('../Assets/images/newsletter-border.svg') no-repeat;
+    width: 315px;
+    height: 98px;
+}
 
+input#newsletter  {
+    font-family: 'Lancelot';
+    border: none;
+    background-color: transparent;
+    width: 293px;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: 23px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 5px;
+    
+}
+
+input#newsletter:focus {
+    box-shadow: #ff0000 1px 0px 20px;
+    outline: none;
 }
 
 /* SCROLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
@@ -160,9 +181,9 @@ footer {
 #scroll-animation {
     background-image: url('../Assets/images/scroll-bottom-1-v2.svg');
     background-repeat: no-repeat;
-    background-size: 70%;
-    width: 145%;
-    height: 200px;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 150px;
     position: fixed;
     bottom: 0px;
     left: -.8%;
