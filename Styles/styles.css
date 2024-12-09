@@ -401,11 +401,43 @@ footer form {
     text-align: left;
 }
 
+#healing-spells h2::before {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
+    position: relative;
+    top: 12px;
+    left: -8px;
+    right: 10px;
+}
+#healing-spells h2::after {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/after.png);
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+
+
+
+
 /* ENCHANTMENTS */
 
 #enchantments h2 {
     text-align: center;
     padding-top: 100px;
+}
+
+#enchantments h2::before {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
+    position: relative;
+    top: 12px;
+    left: -8px;
+    right: 10px;
+}
+#enchantments h2::after {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/after.png);
+    position: relative;
+    top: 12px;
+    left: 10px;
 }
 
 .enchantment-duo {
@@ -443,6 +475,21 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
     text-align: center;
     padding-top: 50px;
 }
+
+.wood-header h2::before {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
+    position: relative;
+    top: 12px;
+    left: -8px;
+    right: 10px;
+}
+.wood-header h2::after {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/after.png);
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
 .wood {
     display: flex;
     flex-direction: column;
@@ -479,6 +526,7 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 #term-defs h3 {
     text-align: center;
     padding-block: 30px;
+    padding-top: 50px;
 }
 
 #term-defs div {
@@ -494,6 +542,20 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 
 .crystal-header h2 {
     text-align: center;
+}
+
+.crystal-header h2::before {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
+    position: relative;
+    top: 12px;
+    left: -8px;
+    right: 10px;
+}
+.crystal-header h2::after {
+    content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/after.png);
+    position: relative;
+    top: 12px;
+    left: 10px;
 }
 
 .crystal {
