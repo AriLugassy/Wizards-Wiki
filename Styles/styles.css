@@ -5,8 +5,11 @@ body {
 main {
     margin: auto;
     width: 60%;
-     
-     padding-inline: 100px;
+    
+}
+
+img {
+    max-width: 100%;
 }
 
 header {
@@ -202,6 +205,7 @@ footer form {
     position: fixed;
     bottom: 0px;
     left: -.8%;
+    z-index: 99;
     /* animation: scrollmove 1s infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -2s); */
@@ -232,6 +236,7 @@ footer form {
     top: 0px;
     left: -.5%;
     transform: scaleY(-1);
+    z-index: 99;
     /* animation: scrollmove 1s infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -2s); */
@@ -318,6 +323,7 @@ footer form {
 .spell-l {
     display: flex;
     gap: 40px;
+    
     
 }
 .spell-l h4 {
@@ -578,3 +584,69 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 }
 
 
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 1700px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1340px) {
+    main {
+        width: 95%;
+    }
+
+    .spell-l div {
+        width: 50%;
+    }
+
+    .spell-r div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .spell-l {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .spell-l div {
+        width: 100%;
+    }
+
+    .spell-r div {
+        width: 100%;
+    }
+
+    
+
+    .spell-r {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #spell-sect h2::before {
+        content: url();
+        position: relative;
+        top: 10px;
+        left: -12px;
+        right: -20px;
+       
+    }
+    
+    #spell-sect h2::after {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: 20px;
+        
+    }
+
+
+}
