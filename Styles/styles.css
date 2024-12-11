@@ -427,6 +427,10 @@ footer form {
 
 /* ENCHANTMENTS */
 
+#enchantments {
+    padding-bottom: 150px;
+}
+
 #enchantments h2 {
     text-align: center;
     padding-top: 100px;
@@ -546,6 +550,11 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 
 /* CRYSTALS */
 
+
+#magic-crystals {
+    padding-bottom: 150px;
+}
+
 .crystal-header h2 {
     text-align: center;
 }
@@ -610,6 +619,8 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 }
 
 @media (max-width: 1000px) {
+  
+    /* SPELL WRAPS AND RESHAPES */
     .spell-l {
         flex-wrap: wrap;
         width: 100%;
@@ -631,6 +642,18 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
         justify-content: center;
     }
 
+    /* CRYSTAL WRAPS */
+
+    .crystal {
+        flex-wrap: wrap;
+        gap: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    /* HEADER REMOVES */
+
     #spell-sect h2::before {
         content: url();
         position: relative;
@@ -648,5 +671,73 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
         
     }
 
+    #elemental-spell h2::before {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: -8px;
+        right: 10px;
+    }
+    #elemental-spell h2::after {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: 10px;
+    }
+    
+    #healing-spells h2::before {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: -8px;
+        right: 10px;
+    }
+    #healing-spells h2::after {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: 10px;
+    }
+    
+    #enchantments h2::before {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: -8px;
+        right: 10px;
+    }
+    #enchantments h2::after {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: 10px;
+    }
 
+    .wood-header h2::before {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: -8px;
+        right: 10px;
+    }
+    .wood-header h2::after {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: 10px;
+    }
+
+    .crystal-header h2::before {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: -8px;
+        right: 10px;
+    }
+    .crystal-header h2::after {
+        content: url();
+        position: relative;
+        top: 12px;
+        left: 10px;
+    }
 }
