@@ -76,11 +76,37 @@ ol li {
 #toc-index  {
   text-align: center;
   padding-block: 35px;
+  position: relative;
+  height: 330px;
+
 }
+
+#toc-flex {
+    display: flex;
+}
+
 #toc-index ol {
     margin: auto;
     display: inline-block;
     text-align: left;
+}
+
+#toc-index::before {
+    content: url();
+    background-image: url('../Assets/images/toc-border-1.svg');
+    display: inline-block;
+   width: 51px;
+   background-repeat: no-repeat;
+   height: 100%;
+   background-size: 100% 100%;
+    background-position: left;
+}
+
+#toc-index::after {
+    content: url('../Assets/images/toc-border2.svg');
+    position: absolute;
+    top: 33px;
+    height: 100%;
 }
 
 
@@ -100,7 +126,7 @@ header nav menu#main-menu {
     justify-content: center;
     gap: 40px;
     height: 100px;
-    width: 700px;
+    width: 100%;
     background-image: url(../Assets/images/nav-bar.svg);
     background-repeat: no-repeat;
     background-position: bottom;
