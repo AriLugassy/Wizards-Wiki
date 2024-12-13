@@ -1,11 +1,12 @@
 body {
-   background-color: #F0E2CB;
+   background-color: rgb(240, 226, 203);
     color: #220038;
+    background: linear-gradient(rgba(240,226,203,.8), rgba(240,226,203,.8)),  url('../Assets/images/kiwihug-qv05FvdE26k-unsplash.jpg');
 }
 main {
     margin: auto;
     width: 60%;
-    
+   
 }
 
 img {
@@ -14,7 +15,6 @@ img {
 
 header {
     text-align: center;
-    background-color: #F0E2CB;
     width: 60%;
     margin: auto;
     padding-inline: 100px;
@@ -77,7 +77,9 @@ ol li {
   text-align: center;
   padding-block: 35px;
   position: relative;
-  height: 330px;
+  width: fit-content; 
+  position: relative;  
+  margin: auto;
 
 }
 
@@ -95,18 +97,26 @@ ol li {
     content: url();
     background-image: url('../Assets/images/toc-border-1.svg');
     display: inline-block;
-   width: 51px;
-   background-repeat: no-repeat;
-   height: 100%;
-   background-size: 100% 100%;
+    width: 51px;
+    height: 100%;
+    position: absolute;
+    left: -50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: left;
 }
 
 #toc-index::after {
-    content: url('../Assets/images/toc-border2.svg');
-    position: absolute;
-    top: 33px;
+    content: url();
+    background-image: url('../Assets/images/toc-border2.svg');
+    display: inline-block;
+    width: 51px;
     height: 100%;
+    position: absolute;
+    top: 35px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
 }
 
 
@@ -144,7 +154,7 @@ header nav {
 footer {
     width: 60%;
     margin: auto;
-    background-color: #F0E2CB;
+    
     padding-inline: 100px;
     padding-bottom: 300px;
 
@@ -645,6 +655,11 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 }
 
 @media (max-width: 1000px) {
+
+
+    header nav menu#main-menu {
+        background-size: 100%;
+    }
   
     /* SPELL WRAPS AND RESHAPES */
     .spell-l {
