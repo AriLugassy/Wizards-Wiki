@@ -149,6 +149,8 @@ header nav {
 }
 
 
+
+
 /* FOOOOOOOOOOOOOOOOTER */
 
 footer {
@@ -293,19 +295,30 @@ footer form {
 
 
 
-.spell-para {
-    padding-block: 12px;
+.spell-phys {
+    padding-block: 30px;
+    position: relative;
+}
 
+#marshfinkle {
+    position: absolute;
+    left: 600px;
+    bottom: -190px;
 }
 
 
+.spell-cast-tech {
+    padding-block: 30px;
+}
 
 
+#intro-to-wizards {
+    padding-top: 70px;
+}
 
-
-
-
-
+#wiz-staffs {
+    padding-top: 80px;
+}
 
 
 
