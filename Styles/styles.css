@@ -1,7 +1,8 @@
 body {
    background-color: rgb(240, 226, 203);
     color: #220038;
-    background: linear-gradient(rgba(240,226,203,.8), rgba(240,226,203,.8)),  url('../Assets/images/kiwihug-qv05FvdE26k-unsplash.jpg');
+    background: linear-gradient(rgba(240,226,203,.7), rgba(240,226,203,.8)),  url('../Assets/images/paper-8882753.jpg');
+    background-repeat: no-repeat;
 }
 main {
     margin: auto;
@@ -306,6 +307,17 @@ footer form {
     bottom: -190px;
 }
 
+#blue-gem {
+    position: absolute;
+    left: 1100px;
+    bottom: -270px;
+}
+
+#red-gem {
+    position: absolute;
+    left: 300px;
+    bottom: -600px;
+}
 
 .spell-cast-tech {
     padding-block: 30px;
@@ -321,7 +333,9 @@ footer form {
 }
 
 
-
+#section-p p {
+    font-size: 30px;
+}
 
 
 
@@ -349,8 +363,18 @@ footer form {
 
 /* SPELLS STUFF YO */
 
+#spell-page-intro h2 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+
+
 #elemental-spell h2 {
     text-align: center;
+    padding-top: 150px;
 }
 #elemental-spell h2::before {
     content: url(https://tcnj-des255.github.io/syllabus-fall24/assets/imgs/before.png);
@@ -528,6 +552,10 @@ footer form {
 /* STAFFS PAGE 
 STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 
+#staffs-of-wiz h2 {
+    text-align: center;
+    padding-top: 70px;
+}
 
 
 .wood-header h2 {
@@ -553,9 +581,10 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
     padding-block: 35px;
+    padding-inline: 300px;
 }
 
 #wood-types div {
@@ -584,8 +613,7 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
 
 #term-defs h3 {
     text-align: center;
-    padding-block: 30px;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 #term-defs div {
@@ -651,9 +679,17 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
     main {
         width: 80%;
     }
+
+    #marshfinkle {
+        left: 600px;
+    }
+    #blue-gem {
+        left: 800px;
+    }
 }
 
-@media (max-width: 1340px) {
+
+@media (max-width: 1360px) {
     main {
         width: 95%;
     }
@@ -665,50 +701,25 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
     .spell-r div {
         width: 50%;
     }
+
+    .wood div {
+        width: 50%;
+    }
+/* HOMEPAGE IMAGES */
+
+    #marshfinkle {
+        left: 400px;
+    }
+    #blue-gem {
+        left: 700px;
+    }
 }
 
-@media (max-width: 1000px) {
 
+@media (max-width: 1150px) {
+     /* HEADER REMOVES */
 
-    header nav menu#main-menu {
-        background-size: 100%;
-    }
-  
-    /* SPELL WRAPS AND RESHAPES */
-    .spell-l {
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .spell-l div {
-        width: 100%;
-    }
-
-    .spell-r div {
-        width: 100%;
-    }
-
-    
-
-    .spell-r {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    /* CRYSTAL WRAPS */
-
-    .crystal {
-        flex-wrap: wrap;
-        gap: 0px;
-        width: 100%;
-        justify-content: center;
-    }
-
-
-    /* HEADER REMOVES */
-
-    #spell-sect h2::before {
+     #spell-sect h2::before {
         content: url();
         position: relative;
         top: 10px;
@@ -793,5 +804,83 @@ STAFFS PAGE STAFFS PAGE STAFFS PAGE */
         position: relative;
         top: 12px;
         left: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+
+    header nav menu#main-menu {
+        background-size: 100%;
+    }
+  
+
+    /* HOMEPAGE IMAGES */
+
+    #marshfinkle {
+        left: 300px;
+    }
+
+    #blue-gem {
+        left: 500px;
+    }
+
+    #red-gem {
+        bottom: -700px;
+    }
+
+    /* SPELL WRAPS AND RESHAPES */
+    .spell-l {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .spell-l div {
+        width: 100%;
+    }
+
+    .spell-r div {
+        width: 100%;
+    }
+
+    
+
+    .spell-r {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* STAFF RESHAPES */
+
+    .wood div {
+       margin: 0%;
+      
+    }
+
+    /* CRYSTAL WRAPS */
+
+    .crystal {
+        flex-wrap: wrap;
+        gap: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    #red-gem {
+        left: 70px;
+    }
+
+    #blue-gem {
+        left: 350px;
+        bottom: -700px;
+    }
+
+    footer {
+        padding-bottom: 400px;
     }
 }
