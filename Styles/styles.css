@@ -1,8 +1,8 @@
 body {
    background-color: rgb(240, 226, 203);
     color: #220038;
-    background: linear-gradient(rgba(240,226,203,.7), rgba(240,226,203,.8)),  url('../Assets/images/paper-8882753.jpg');
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(240,226,203,.83), rgba(240,226,203,.8)),  url('../Assets/images/paper-8882753.jpg');
+    /* background-repeat: no-repeat; */
 }
 main {
     margin: auto;
@@ -333,9 +333,7 @@ footer form {
 }
 
 
-#section-p p {
-    font-size: 30px;
-}
+
 
 
 
